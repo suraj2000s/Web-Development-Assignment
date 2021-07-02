@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body> 
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Welcome to My Portfolio</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="sitereport.html">Site Report</a></li>
+			</ul>
+		</nav>
+
+		<div class="content">
+			<h5>Hi, I'm..</h5>
+			<h1>Suraj <span>Khatri </span></h1 >
+			<h3>I'm a Student</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="email" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: url('bc.jpg');
+	background-position: center;
+}
+span{
+	color:  #f9004d;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 20%;
+	padding-right: 1%;
+}
+nav ul li{
+	list list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: 4s;
+}
+.content{
+	 position: absolute;
+	 top:  50%;
+	 left:  8%;
+	 transform: translateY(-50%);
+}
+h2{
+	color: white;
+	font-size: 40px;
+}
+.logo{
+	margin-left: -170px ;
+}
+h1{
+	color: white;
+	margin: 20px 20px 20px;
+	font-size: 80px;
+}
+h3{
+	color: white;
+	margin: 15px 24px 24px;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h5{
+	color: #585c63;
+	margin: 20px 20px 20px;
+	font-size: 50px;
+	letter-spacing: 1px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #f9004d;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+	top:  6px;
+	right: 6px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+<body>
+	div class="hero">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="sitereport.html">Site Report</a></li>
+			</ul>
+		</nav>
+	</div>
+	<h1>This is Just an place holder image which will be Updated in Term II.</h1>
+	<div class="gallery">
+		<img src="dum.png" alt="dummy">
+		<img src="dum.png" alt="dummy">
+		<img src="dum.png" alt="dummy">
+		<img src="dum.png" alt="dummy">
+		<img src="dum.png" alt="dummy">
+		<img src="dum.png" alt="dummy">
+	</div>
+
+</body>
+</html>
+
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+}
+
+.gallery{
+	margin: 10px 30px;
+}
+.gallery img{
+	transition: 1s;
+	padding: 15px;
+	width: 700px;
+}
+.gallery img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+h1{
+	color: whitesmoke;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-left: 60%;
+	padding-right: 1%;
+}
+nav ul li{
+	list list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: 4s;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+	<div class="hero">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="sitereport.html">Site Report</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact </h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="email" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Your Phone">
+				<textarea class="field" placeholder="Message"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand',sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-left: 60%;
+	padding-right: 1%;
+}
+nav ul li{
+	list list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: 4s;
+}
+
+
+.container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 20px 100px;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: url('bg.jpg'); no-repeat center;
+	background-size: cover;
+	z-index: -1;
+	filter: blur(50px);
+}
+
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+.left{
+	height: 100%;
+	background-image: url('mail.jpg'); no-repeat center;
+	background-size: cover;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%);
+	height: 4px;
+	width: 50px;
+	border-radius: 2px;
+	background-color: #2ecc71;
+}
+
+.field{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	outline: none;
+	border: 2px solid rgba(0, 0, 0, 0);
+	background-color: rgba(230, 230, 230, 0.6);
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:focus{
+	background-color: #fff;
+	border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	font-size: 1,1rem;
+	background-color: #2ecc71;
+	cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn:hover{
+	background-color: #27ae60;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+
+	.left{
+		height: 200px;
+	}
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CURRICULUM VITAE</title>
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+            </ul>
+        </nav>
+    </div>
+	<div class="box"><img src="ME.jpg" alt="myprofile"></div>
+	<div class="outer">
+		<h1>CURRICULUM VITAE</h1>
+		<br>
+		<p>
+		<b>Suraj Khatri</b><br>
+			Address: Bharatpur-6,Chitwan<br>
+			Mobile:9846999106<br>
+			Email:surajkhatri023@gmail.com
+		</p>
+		<hr>
+		<hr>
+		<br>
+		<div class="border">
+		   <i>CAREER ODJECTIVE:-</i>
+         </div>
+         <br>
+         <p>
+         	Aiming to achieve a challenging and professional position from where I can make a significant contribution to the specific industry in the form of my dedication by using all my skills.
+         </p>
+         <br>
+         <div class="border">
+         	<i>EDUCATIONAL QUALIFICATION</i>
+         </div>
+         <BR>
+         <ul>
+         	<li><b>10<sup>th</sup></b> Paased from NEB Board</li>
+         	<li><b>12<sup>th</sup></b> Passed from HSEB Board</li>
+         	<li>B.IT Pursuing from NAMI College</li>
+          </ul>
+      <br>
+      <div class="border">
+      	<i>TECHNICAL QUALIFICATION</i>
+      </div>
+      <br>
+       <ul>
+      	<li>Basic Knowledge in Computer Application</li>
+      </ul>
+      <br>
+      <div class="border">
+      	<i>WORKING EXPERIENCE:-</i>
+      </div>
+      <br>
+      <ul>
+      	<li>Fresher</li>
+      </ul>
+      <br>
+      <div class="border">
+      	<i>PERSONAL DETAILS:-</i>
+      </div>
+      <br>
+      <UL>
+      	<li>Father's name:Janak Khatri</li>
+      	<li>Date of Birth: 2059/01/03</li>
+      	<li>Nationaluty: Nepali</li>
+      	<li>Sex: Male</li>
+      	<li>Religion: Hindu</li>
+      	<li>Language Known:Nepali, Hindi, English</li>
+      	<li>Skills: Good Communication Skills</li>
+
+      </UL>
+      <br>
+      <div class="border">
+      	<i>DECLARATION:-</i>
+      </div>
+      <BR>
+      <P>I hereby declare that every information is true and Im solely responsible for its authenticity</P>
+      <br>
+      <p>
+      	DATE:........<BR>
+      	PLACE:.......
+      </P>
+      <BR>
+      <h2>Suraj Khatri</h2>
+    
+    </div><!--end of the outer div-->
+
+</body>
+</html>
+
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: -1px;
+	padding-left: 57%;
+	padding-right: 0%;
+}
+nav ul li{
+	list list-style-type: none;
+	display: inline-block;
+	padding: 50px 40px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: 4s;
+}
+
+.outer{
+	width: 800px;
+	height: 800px;
+	margin: 10px auto;
+	color: white;
+}
+.outer h1{
+	text-align: center;	
+}
+p{
+	font size: 50px;
+}
+.border{
+	width: 100%;
+	padding: 5px;
+	background-color: rgb(200, 200, 200);
+	border: 1px solid white;
+	font-weight: bold;
+}
+h2{
+	float: right;
+}
+.box{
+	display: block;
+	float: right;
+	width: 20%;
+	padding: 100px;
+	padding-top: 60px;
+}
+img{
+	width: 80%;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Report</title>
+		<link rel="stylesheet" type="text/css" href="style5.css">
+	</head>
+<body>
+	<div class="hero">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="#">SiteReport</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="rep">
+	<h2><u>Site Report</u></h2>
+	<p>
+	     <h3>Hello, it's me Suraj Khatri. Today I'm here to express my experience of learning the basics of web development, coding, design and debugging process. First of all in general words Web development means developing websites for the internet which includes markup and coding. Web developing is very exciting and very familiar course for students. 
+	     The objective of our assignment was to create an portfolio website and create a home page, contact page, portfolio page, CV page and Site report. It was such a new experience for us to create an portfolio site. Now we are being more familiar to coding and designing websites. In this module, we have learnt how to create and design websites using HTML and CSS. It was very fun and we had learnt many more about coding and designing websites. I had such an exciting experience creating an portfolio site.Designing a portfolio site was an first experience for me as in this module we learnt to design webpages and we are familiar with so many tags that are used in the coding. We are so familiar with the tags and their function so that we can make an attractive pages. As it was first experience using HTML and CSS it was a bit difficult to become familiar with HTML CSS but as much we were working on it day by day it is becoming familiar to me. As working on it i realize that web development is not easy as i thought. I had to face so many challenges designing a website. I was not handy over the tag so it was a basic problem for me. I was feeling a bit difficulty in CSS i was not taking seriously, which has given me some issues occasionally. I had problem using obsolete elements. Invalid or non-existent elements, attributes or properties. Using the wrong name e.g. 'font-color' instead of 'color'. Facing error in HTML lists. Problem in basic syntax for HTML elements, attributes, and values. Problem in basic CSS and selector syntax. Misunderstanding of the box model and CSS positioning. I had fix problem consulting with teachers and watching YouTube, visiting other sites. And much more working on it day by day it is becoming familiar to me these days. This was my experience of learning the basics of Web Development. </h3>
+</div>
+<h2>Images of Progress</h2>
+<div class="page">
+	<img src="page1.png" alt="ss1">
+	<img src="page2.png" alt="ss2">
+	<img src="page3.png" alt="ss3">
+	<img src="page4.png" alt="ss4">
+	<img src="page5.png" alt="ss5">
+</div>
+
+
+<H2>Screenshots of Validation </H2>
+<div class="photo">
+	<img src="1.png" alt="ss1">
+	<img src="2.png" alt="ss2">
+	<img src="3.png" alt="ss3">
+	<img src="4.png" alt="ss4">
+	<img src="5.png" alt="ss5">
+	<img src="6.png" alt="ss6">
+
+</div>
+</html>
+	
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h2{
+   text-align: center;
+   color: rebeccapurple;
+   
+}
+.rep{
+	padding-top: 20px;
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	background-image: url('report.jpg');
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-left: 60%;
+	padding-right: 1%;
+}
+nav ul li{
+	list list-style-type: none;
+	display: inline-block;
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: 4s;
+}
+h3{
+	color: black;
+ }	
+.photo{
+ 	margin: 10px 30px;
+}
+ .photo img{
+ 	transition: 1s;
+ 	padding: 50px;
+	width: 500px;
+}
+.photo img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+.page{
+        margin: 10px 30px;
+
+}
+.page img{
+        transition: 1s;
+ 	padding: 50px;
+	width: 500px;
+}
+.page img:hover{
+        filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+      
